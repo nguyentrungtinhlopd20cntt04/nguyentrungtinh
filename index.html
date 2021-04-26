@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food - Cửa hàng thức ăn nhanh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/32382-hamburger-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="js/script.js">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    <div id="loader">
+        <div class="circle">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+     <header>
+         <img src="images/horizontal_on_white_by_logaster.png" alt="logo">
+         <div class="thanhtimkiem">
+            <input type="text" placeholder="Tìm kiếm....">
+            <button type="submit"><i class="fa fa-search"></i></button> 
+            <div class="giohang">
+              <a href="#"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+            </div>
+         </div> 
+     </header>
+     <nav>
+       <section class="menu">
+           <hr>
+           <div>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm <i class="fas fa-angle-down"></i></a>
+                    <ul class="menucon">
+                        <li><a href="#">Món ăn ngọt</a></li>
+                        <li><a href="#">Món ăn nhanh</a></li>
+                        <li><a href="#">Nước uống</a></li>
+                    </ul>
+                </li>
+                <li><a href="tintuc.html">Tin tức</a></li>
+                <li><a href="khuyenmai.html">Khuyến mãi</a></li>
+                <li><a href="#">Thanh toán</a></li>
+                <li><a href="lienhe.html">Liên hệ</a></li>
+            </ul>
+           </div>
+       </section>
+       <section class="danhmuc">
+           <div class="danhmuc1">
+               <h3>DANH MỤC MÓN ĂN</h3>
+               <ul>
+                   <li><a href="#"> Bánh ngọt</a></li>
+                   <li><a href="#"> Trái cây ướp lạnh</a></li>
+                   <li><a href="#"> Gà rán + Khoai tây chiên</a></li>
+                   <li><a href="#"> Pizza</a></li>
+                   <li><a href="#"> Bánh mì</a></li>
+                   <li><a href="#"> Hambuger</a></li>
+                   <li><a href="#"> Xiên que</a></li>
+                   <li><a href="#"> Nước ngọt</a></li>
+                   <li><a href="#"> Trà sữa nhà làm</a></li>
+                   <li><a href="#"> Cafe</a></li>
+                   <li><a href="#"> Kem</a></li>           
+               </ul>
+           </div>
+       </section>
+       <section class="hinh">
+          <div class="img">
+             <img src="images/gakfc.png" alt="">
+             <div class="txt">
+                <h3>GÀ RÁN KFC</h3>
+                <p>GIÁ SỐC: 18.000Đ / MIẾNG GÀ</p>
+                <P class="km">36.000Đ</P>
+             </div>
+          </div>
+       </section>
+       <section class="hinh2">
+        <div class="img">
+           <img src="images/kem.png" alt="">
+           <div class="txt">
+              <h3>KEM TƯƠI</h3>
+              <p>GIẢI NHIỆT CHO MÙA HÈ NÓNG BỨC</p>
+           </div>
+        </div>
+        <div class="img1">
+          <img src="images/nhomy.png" alt="">
+          <div class="txt">
+             <h3>NHO MỸ</h3>
+             <p>TRÁI CÂY ĐÓNG HỢP - NHẬP KHẨU TỪ MỸ</p>
+          </div>
+       </div>
+       <div class="img2">
+        <img src="images/pepsi.png" alt="">
+        <div class="txt">
+           <h3>NƯỚC NGỌT </h3>
+           <p>KHÁT KHAO HƠN / SÔI ĐỘNG HƠN VỚI PEPSI</p>
+        </div>
+     </div>
+     </section>
+     <section class="hinh3">
+        <div class="img">
+           <img src="images/b0b7c83a0fc3bc2c8985439569cab943.png" alt="">
+           <div class="txt">
+              <h3>BÁNH NGỌT</h3>
+              <p>BÁNH DÂU TÂY - THƠM NGẤT NGÂY</p>
+           </div>
+        </div>
+     </section>
+     <section class="chinhsach">
+         <div class="noidung">
+             <h3>CHÍNH SÁCH VẬN CHUYỂN</h3>
+             <i class="fas fa-truck"></i>
+             <p>Miễn phí vận chuyển với đơn hàng trị giá trên 100.000đ</p>
+         </div>
+        <div class="noidung">
+            <h3>CHÍNH SÁCH THANH TOÁN</h3>
+            <i class="fas fa-money-check-alt"></i>
+            <p>Thanh toán online hoặc trực tiếp khi nhận hàng</p>
+        </div>
+        <div class="noidung">
+            <h3>KHUYẾN MÃI CUỐI TUẦN</h3>
+            <i class="fas fa-gift"></i>
+            <p>Khuyến mãi lớn, rinh quà tặng với mỗi thứ 7, CN hàng tuần.</p>
+        </div>
+        <div class="noidung">
+            <h3>HỖ TRỢ ONLINE 24/24</h3>
+            <i class="far fa-comments"></i>
+            <p>Đội tư vấn của chúng tôi sẵn sàng giúp đỡ khi bạn gặp khó khăn</p>
+        </div>
+     </section>
+     <section class="sanpham">
+        <h3>SẢN PHẨM BÁN CHẠY</h3>
+        <hr></hr>
+        <div>
+           <div class="cacsanpham">
+               <img src="images/combo_1_ga_ran.png" alt="">
+               <p class="ten">COMBO GÀ RÁN + KHOAI TÂY CHIÊN + COCA</p>
+               <p class="gia">55.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/Hamburger-gà-thượng-hạng-combo.png" alt="">
+               <p class="ten">COMBO HAMBUGER GÀ + KHOAI TÂY CHIÊN + COCA</p>
+               <p class="gia">49.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/080313_com-ga-kfc.png" alt="">
+               <p class="ten">CƠM GÀ RÁN + 1 COCA</p>
+               <p class="gia">30.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/pixlr-bg-result.png" alt="">
+               <p class="ten">BÁNH KEM SOCOLA </p>
+               <p class="gia">80.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/pizzahaisan.png" alt="">
+            <p class="ten">BÁNH PIZZA HẢI SẢN - SIZE S - 20CM</p>
+            <p class="gia">90.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/pizza.png" alt="">
+            <p class="ten">PIZZA TÔM - SIZE S - 20CM</p>
+            <p class="gia">60.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/cách-làm-trà-sữa-trân-châu-7-1-1.jpg" alt="">
+            <p class="ten">TRÀ SỮA TRÂN CHÂU</p>
+            <p class="gia">25.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/foody-upload-api-foody-mobile-img_2210-200427144325.jpg" alt="">
+            <p class="ten">COMBO CÁC LOẠI TRÁI CÂY</p>
+            <p class="gia">30.000Đ</p>
+           </div>
+        </div>
+        <input type="submit" value="Xem thêm >">
+     </section>
+     <section class="sanpham">
+        <h3>KHUYẾN MÃI TRONG NGÀY</h3>
+        <hr></hr>
+        <div>
+           <div class="cacsanpham">
+               <img src="images/gà-rán-2.jpg" alt="">
+               <p class="ten">ỨC GÀ CHIÊN GIÒN</p>
+               <p class="km">30.000Đ</p>
+               <p class="gia">20.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/xienga.png" alt="">
+               <p class="ten">CÁNH GÀ NƯỚNG XIÊN QUE</p>
+               <p class="km">32.000Đ</p>
+               <p class="gia">25.000Đ / 1 XIÊN </p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/kemtraicay" alt="">
+               <p class="ten">KEM TRÁI CÂY</p>
+               <p class="km">35.000Đ</p>
+               <p class="gia">30.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/4_ga_5a098778444f4e3a87cc63303c77e18d_master.png" alt="">
+               <p class="ten">COMBO 4 MIẾNG GÀ KFC</p>
+               <p class="km">72.000Đ</p>
+               <p class="gia">65.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/cafe-nguyen-chat-mang-di-1.png" alt="">
+               <p class="ten">CÀ PHÊ SỮA MANG ĐI</p>
+               <p class="km">20.000Đ</p>
+               <p class="gia">15.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/xienquetuchon.png" alt="">
+            <p class="ten">XIÊN QUE TỰ CHỌN</p>
+            <p class="km">15.000Đ</p>
+            <p class="gia">ĐỒNG GIÁ 10.000Đ / 1 XIÊN</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/Gà-quay-tiêu.jpg" alt="">
+            <p class="ten">GÀ QUAY TIÊU</p>
+            <p class="km">64.000Đ</p>
+            <p class="gia">50.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+            <img src="images/muc" alt="">
+            <p class="ten">MỰC NƯỚNG KIỂU HÀN</p>
+            <p class="km">30.000Đ</p>
+            <p class="gia">25.000Đ/ 1 PHẦN</p>
+           </div>
+
+        <input type="submit" value="Xem thêm >">
+     </section>
+     <section class="sanpham">
+        <h3>SẢN PHẨM MỚI</h3>
+        <hr></hr>
+        <div>
+           <div class="cacsanpham">
+               <img src="images/MIGA.png" alt="">
+               <p class="ten">MÌ XÀO + ĐÙI GÀ NƯỚNG</p>
+               <p class="gia">35.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/banhmikepthit.png" alt="">
+               <p class="ten">BÁNH MÌ KẸP THỊT</p>
+               <p class="gia">10.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/origato-matcha-bac-ha.png" alt="">
+               <p class="ten">BÁNH NGỌT MATCHA BẠC HÀ</p>
+               <p class="gia">10.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/comthitque.png" alt="">
+               <p class="ten">CƠM THỊT HEO XIÊN QUE + 1 COCA</p>
+               <p class="gia">25.000Đ</p>
+           </div>
+           <div class="cacsanpham">
+               <img src="images/xucxich.png" alt="">
+               <p class="ten">XÚC XÍCH ĐỨC NƯỚNG </p>
+               <p class="gia">10.000Đ / 1 CÁI</p>
+           </div>
+        </div>
+        <input type="submit" value="Xem thêm >">
+     </section>
+     <section class="logoqc">
+      <p><i class="fas fa-star"></i>THƯƠNG HIỆU NỔI TIẾNG</p>
+      <hr>
+      <div id="khunglogo">
+         <div class="logohang">
+             <img src="images/logokfc.png" alt="">
+         </div>
+         <div class="logohang">
+            <img src="images/pepsilogo.png" alt="">
+         </div>
+         <div class="logohang">
+            <img src="images/logococa1.png" alt="">
+         </div>
+         <div class="logohang">
+            <img src="images/logomcdonal.png" alt="">
+         </div>
+         <div class="logohang">
+            <img src="images/burgerking" alt="">
+         </div>
+         <div class="logohang">
+            <img src="images/unnamed.png" alt="">
+         </div>
+      </div>
+   
+      <hr>
+     </section>
+     <div class="bannerscroll"><a href="#"><img src="images/qcbanner.png" alt=""></a></div>
+     <div class="bannerscroll1"><a href="#"><img src="images/anhb.png" alt=""></a></div>
+     <button onclick="topFunction()" id="dichchuyen" title="Go to top">TOP</button>
+     </nav>
+</body>
+<footer>
+    <div>
+    <div class="foot">
+        <div class="about">
+            <h2>Fast Food</h2>
+            <p>Fast Food được biết là thức ăn nhanh đã được chế biến sẵn chỉ cần làm nóng có thể ăn luôn.
+                Theo nhiều chia sẻ của các đầu bếp nhà hàng thì sử dụng phương pháp ăn này khá nhanh và tiết kiệm được nhiều thời gian. 
+                Không những vậy, bạn có thể vừa ăn, vừa làm việc, trò chuyện hay đi bộ trên đường. 
+                Với sự tiện lợi này khá phù hợp với giới trẻ hiện nay luôn vội vã tranh thủ ăn mọi lúc mọi nơi.
+            </p>
+            <ul class="follow">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <div class="chef"><img src="images/italian-chef-mascot-logo-png_110592.png" alt=""></div>
+        </div>
+        
+        <div class="support">
+            <h2>Liên kết nhanh</h2>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="tintuc.html">Tin tức</a></li>
+                <li><a href="khuyenmai.html">Khuyến mãi</a></li>
+                <li><a href="#">Thanh toán</a></li>
+                <li><a href="lienhe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <span>125/2 Hòa Hưng, Quận 10 , TP.HCM</span>
+                </li>
+                <li>
+                    <p><i class="fas fa-phone"></i> <a href="tel:1800 7137">+84 1800 7137</a></p>
+                </li>
+                <li>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+                </li>
+            </ul>
+            <div class="calendar"><script src="js/script.js"></script></div>
+            <input type="text" placeholder="Đóng góp ý kiến tại đây...." class="donggop">
+            <button class="nut">Gửi</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</footer>
+<div class="banquyen">
+    <p>® Bản quyền thuộc về FastFood </p>
+</div>
+</html>
